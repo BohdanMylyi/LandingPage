@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "../logo/Logo.png";
+import Nav from "../components/Nav";
 
-
-import "../styles/styles.css";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
@@ -10,33 +10,12 @@ const Navbar = () => {
       <div className="logo">
         <img src={logo} alt="Muhammad Logo" />
       </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Projects</a>
-          </li>
-          <li>
-            <a href="#">Testimonials</a>
-          </li>
-          <li>
-            <a href="#">Contact Us</a>
-          </li>
-          <li>
-            <a href="#" className="cv-button">
-              Download CV
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
+      <li>
+        <a href="#" className="cv-button">
+          Download CV
+        </a>
+      </li>
     </navbar>
   );
 };

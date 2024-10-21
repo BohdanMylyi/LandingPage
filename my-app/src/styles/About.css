@@ -1,0 +1,37 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 86px;
+    width: 1420px;
+}
+
+.about-me {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 97.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    color: #000000;
+    margin-left: 93px;
+}
+
+.description_about {
+    width: 706px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #000000;
+
+    margin-top: 15px;
+}
+
+.statistics li {
+    list-style-type: none;
+    height: 76px;
+    margin-top: 15px;
+}

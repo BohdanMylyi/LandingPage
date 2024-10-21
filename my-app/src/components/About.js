@@ -5,7 +5,7 @@ import websiteDesign from '../images/statistics/Website Design.png'
 import AppDesign from '../images/statistics/AppDesign.png'
 import GraphicDesign from '../images/statistics/Graphic Design.png'
 
-
+import '../styles/About.css'
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       <img src={aboutPhoto} alt="Profile Photo_2" />
       <div className="about-me">
         <h2 className="about-me">About me</h2>
-        <p className="description-about">
+        <p className="description">
           Lorem ipsum dolor sit amet consectetur. Imperdiet convallis blandit
           felis ligula aliquam venenatis nisi ante. Aliquet ornare tellus
           consectetur lacus

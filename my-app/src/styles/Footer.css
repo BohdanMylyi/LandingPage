@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 552px;
+    width: 100%;
+
+    background-color: #F8F8F8;
+}
+
+.logo-footer{
+    height: 54px;
+    width: 274px;
+    margin: 109px auto 0;
+}
+
+.centered-nav {
+    margin: 78px auto 0;
+}
+
+ .centered-socials {
+    margin: 80px auto 0;
+}
+
+footerBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84px;
+    width: 100%;
+
+    background-color: #545454;
+    margin-top: 62px;
+}
+
+.footerBottom-text {
+    color: #fff;
+}
+
+.footerBottom-text_name {
+    color: #FD6F00;
+    ;
+}

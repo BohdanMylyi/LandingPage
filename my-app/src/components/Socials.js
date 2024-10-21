@@ -5,7 +5,7 @@ import linkedinIcon from "../images/social/LinkedIn - Negative.png";
 import twitterIcon from "../images/social/Twitter - Negative.png";
 
 
-import "../styles/styles.css";
+import "../styles/Socials.css";
 
 const Navbar = () => {
   return (

@@ -1,0 +1,19 @@
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 205px;
+    list-style-type: none;
+    margin-top: 24px;
+}
+
+.social li {
+    height: 32px;
+}
+
+.photo-and-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
