@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: Poppins;
     font-size: 21px;
     font-weight: 400;
 }
 
 body {
+    font-family: Poppins;
     background-color: #fff;
     color: #333;
 }
@@ -211,6 +211,7 @@ header {
     align-items: center;
 
     margin-top: 86px;
+    width: 1420px;
 }
 
 .about-me {
@@ -224,7 +225,7 @@ header {
     margin-left: 93px;
 }
 
-.description-about {
+.description_about {
     width: 706px;
     font-size: 21px;
     font-weight: 400;

@@ -1,0 +1,67 @@
+* {
+    font-family: Poppins;
+    letter-spacing: 0.03em;
+}
+
+.title-and-description {
+    height: 214px;
+}
+
+.services {
+    margin-top: 120px;
+}
+
+.services-title {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 97.5px;
+    text-align: center;
+}
+
+.description-services {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    text-align: center;
+
+    width: 932px;
+    margin: 0 auto;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 21px;
+
+    margin-top: 24px;
+}
+
+.services-block {
+    background-color: #f3f3f3;
+
+    width: 330px;
+    height: 356px;
+    border-radius: 14px 14px 14px 0px;
+}
+
+.block-icon {
+    position: relative;
+    margin: 54px 0 0 18px;
+}
+
+.description-block {
+    font-weight: 400;
+    height: 120px;
+    width: 290px;
+    margin: 15px 18px 10px 22px;
+}
+
+medium {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+
+    margin-left: 18px;
+}

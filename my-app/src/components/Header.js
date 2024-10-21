@@ -2,8 +2,10 @@ import React from 'react';
 import profilePhoto from '../images/image-1.png';
 import '../styles/styles.css';
 
+
 const Header = () => {
   return (
+    <>
     <header>
       <section className="heading">
         <div className="text">
@@ -30,6 +32,7 @@ const Header = () => {
         </div>
       </section>
     </header>
+    </>
   );
 };
 

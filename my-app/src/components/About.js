@@ -1,6 +1,11 @@
 import React from 'react';
 import aboutPhoto from '../images/image-2.png';
-import '../styles/styles.css';
+import UX from '../images/statistics/UX.png'
+import websiteDesign from '../images/statistics/Website Design.png'
+import AppDesign from '../images/statistics/AppDesign.png'
+import GraphicDesign from '../images/statistics/Graphic Design.png'
+
+
 
 const About = () => {
   return (
@@ -14,10 +19,10 @@ const About = () => {
           consectetur lacus
         </p>
         <ul className="statistics">
-          <li><img src="../images/statistics/UX.png" alt="UX" /></li>
-          <li><img src="../images/statistics/Website Design.png" alt="Website Design" /></li>
-          <li><img src="../images/statistics/App Design.png" alt="App Design" /></li>
-          <li><img src="../images/statistics/Graphic Design.png" alt="Graphic Design" /></li>
+          <li><img src={UX} alt="UX" /></li>
+          <li><img src={websiteDesign} alt="Website Design" /></li>
+          <li><img src={AppDesign} alt="App Design" /></li>
+          <li><img src={GraphicDesign} alt="Graphic Design" /></li>
         </ul>
       </div>
     </section>
