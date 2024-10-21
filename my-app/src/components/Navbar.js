@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../../logo";
-import {
-  facebookIcon,
-  twitterIcon,
-  instagramIcon,
-  linkedinIcon,
-} from "../../logo";
-import "./styles";
+import logo from "../logo/Logo.png";
+import facebookIcon from "../images/social/Facebook - Negative.png";
+import instagramIcon from "../images/social/Instagram - Negative.png";
+import linkedinIcon from "../images/social/LinkedIn - Negative.png";
+import twitterIcon from "../images/social/Twitter - Negative.png";
+
+
+import "../styles/styles.css";
 
 const Navbar = () => {
   return (
