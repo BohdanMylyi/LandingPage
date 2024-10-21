@@ -5,36 +5,44 @@
 
     font-family: Poppins;
     font-size: 21px;
-
+    font-weight: 400;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #333;
 }
 
-header {
+navbar {
     display: flex;
-    gap: 13px;
     align-items: center;
+    justify-content: space-between;
     background-color: #fff;
     padding: 0;
+    gap: 13px;
+    width: auto;
+    max-width: 1420px;
+    margin: 61px auto ;
 }
 
-nav {
-    font-family: Poppins;
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 31.5px;
-    letter-spacing: 0.03em;
-    text-align: left;
+nav ul {
+    list-style: none;
+    display: flex;
+    height: 52px;
 }
+
+nav ul li:nth-last-child(2) {
+    margin-right: 0;
+}
+
+
+nav ul li:last-child {
+    margin-right: 0;
+    margin-left: 26px;
+}
+
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff6600;
     height: 54px;
     width: 274px;
 }
@@ -47,13 +55,19 @@ nav ul {
 }
 
 nav ul li {
-    margin: 10px 14px;;
+    margin: 10px 14px;
 }
 
 nav ul li a {
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
     text-decoration: none;
     color: #333;
-    font-weight: bold;
 }
 
 .cv-button {
