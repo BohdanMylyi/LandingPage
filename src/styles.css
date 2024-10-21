@@ -71,67 +71,104 @@ nav ul li a {
 }
 
 .cv-button {
-    background-color: #ff6600;
+    background-color: #FF6300;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
 }
 
-.intro {
+header {
+    height: 690px;
+    margin-top: 136px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1420px;
+    margin: 136px auto 0;
+}
+
+.text {
+    height: auto;
+    margin: 76px 0 132px;
+}
+
+.heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    height: inherit
 }
 
-.text h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+.heading-welcome {
+    letter-spacing: 0.03em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
-.text .highlight {
-    color: #ff6600;
+.small-welcome {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
 }
 
-.text h2 {
+.small-name {
+    font-weight: 600;
     font-size: 32px;
-    margin-bottom: 20px;
+    line-height: 48px;
+    color: #FF6300;
 }
 
-.text p {
-    margin-bottom: 20px;
+.title {
+    font-size: 100px;
+    letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: column;
+
+    width: 717px;
+    color: #000000;
+}
+
+.title_part-1 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 150px;
+    text-align: left;
+}
+
+.title_part-2 {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 150px;
+    text-align: right;
+}
+
+.description {
+    width: 706px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    color: #000000;
+
+    margin-bottom: 29px;
 }
 
 .btn {
-    background-color: #ff6600;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
+    background-color: #FF6300;
+    color: #fff;
+    padding: 10px 20px;
     border-radius: 5px;
-    font-weight: bold;
-}
+    bottom: 0;
 
-.photo img {
-    width: 300px;
-    border-radius: 50%;
-}
+    height: 52px;
+    width: 188px;
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-}
-
-footer .social {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-footer .social li img {
-    width: 24px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: justified;
+    text-decoration: none;
 }
