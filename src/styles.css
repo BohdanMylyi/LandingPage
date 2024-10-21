@@ -78,9 +78,10 @@ nav ul li a {
 }
 
 header {
+    display: flex;
+    flex-direction: row;
     height: 690px;
     margin-top: 136px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 1420px;
     margin: 136px auto 0;
 }
@@ -94,7 +95,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
     background-color: #fff;
     height: inherit
 }
@@ -159,6 +159,7 @@ header {
     background-color: #FF6300;
     color: #fff;
     padding: 10px 20px;
+    margin-left: 6px;
     border-radius: 5px;
     bottom: 0;
 
@@ -171,4 +172,30 @@ header {
     letter-spacing: 0.03em;
     text-align: justified;
     text-decoration: none;
+}
+
+.photo {
+    width: 562px;
+    height: 633px;
+    margin-left: 139px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 205px;
+    list-style-type: none;
+    margin-top: 24px;
+}
+
+.social li {
+    height: 32px;
+}
+
+.photo-and-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
